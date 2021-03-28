@@ -10,8 +10,8 @@ public class CengTubeDB implements ICengTubeDB{
 	@Override
 	public void initialize() {
 		final String url = "jdbc:mysql://144.122.71.168:3306/db216735?useSSL=false";
-		final String user = "e216735";
-		final String password = "12b14f31";
+		final String user = "";
+		final String password = "";
 		try {
 			connection = DriverManager.getConnection(url, user, password);
 		} catch (SQLException throwables) {
